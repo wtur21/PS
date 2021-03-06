@@ -2,9 +2,9 @@
 //Programowanie strukturalne
 
 //Praca domowa 1
-//(æw. 27-02-21r.)
+//(cw. 27-02-21r.)
 
-//Zadania z rozdzia³u 11:
+//Zadania z rozdzialu 11:
 
 //Zad. 1:
 
