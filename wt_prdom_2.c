@@ -1,3 +1,12 @@
+// Programowanie strukturalne
+
+// Praca domowa 2
+// (cw. 13-03-21r.)
+
+// Zadania z rozdzialu 14
+
+//******************************************************************************************************
+
 // Zad.1
 
 #include <stdio.h>
