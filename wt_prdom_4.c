@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void przepisz(unsigned int n, int tab1[n], int tab2[n])
+void przepisz(unsigned int n, int tab1[], int tab2[])
 {
 int i;
 for(i = 0; i < n; i++)
@@ -24,7 +24,7 @@ for(i = 0; i < n; i++)
 #include <stdio.h>
 #include <stdlib.h>
 
-void przep_odwr(unsigned int n, int tab1[n], int tab2[n])
+void przep_odwr(unsigned int n, int tab1[], int tab2[])
 {
 int i, k;
 for(i = 0, k = (n - 1); i < n; i++, k--)
@@ -40,7 +40,7 @@ for(i = 0, k = (n - 1); i < n; i++, k--)
 #include <stdio.h>
 #include <stdlib.h>
 
-void przep_sume(unsigned int n, int tab1[n], int tab2[n], int tab3[n])
+void przep_sume(unsigned int n, int tab1[], int tab2[], int tab3[])
 {
 int i;
 for(i = 0; i < n; i++)
@@ -52,7 +52,7 @@ for(i = 0; i < n; i++)
 #include <stdio.h>
 #include <stdlib.h>
 
-void wieksz(unsigned int n, int tab1[n], int tab2[n], int tab3[n])
+void wieksz(unsigned int n, int tab1[], int tab2[], int tab3[])
 {
 int i;
 for(i = 0; i < n; i++)
@@ -70,7 +70,7 @@ for(i = 0; i < n; i++)
 #include <stdio.h>
 #include <stdlib.h>
 
-void przep(unsigned int n, int tab1[n], int tab2[n], int tab3[n])
+void przep(unsigned int n, int tab1[], int tab2[], int tab3[])
 {
 int i;
 int temp2[] = {};
@@ -97,7 +97,7 @@ for(i = 0; i < n; i++)
 #include <stdio.h>
 #include <stdlib.h>
 
-void przep(unsigned int n, int tab1[n], int tab2[n], double tab3[2*n])
+void przep(unsigned int n, int tab1[], int tab2[], double tab3[])
 {
 int i, k;
 for(i = 0, k = n; k < 2*n; i++, k++)
@@ -112,7 +112,7 @@ for(i = 0, k = n; k < 2*n; i++, k++)
 #include <stdio.h>
 #include <stdlib.h>
 
-void przep(unsigned int n, int tab1[n], int tab2[n], double tab3[2*n])
+void przep(unsigned int n, int tab1[], int tab2[], double tab3[])
 {
 int i1, i2, k;
 for(i1 = 0, i2 = 0, k = 0; k < 2*n; k++)
@@ -137,7 +137,7 @@ for(i1 = 0, i2 = 0, k = 0; k < 2*n; k++)
 #include <stdio.h>
 #include <stdlib.h>
 
-void przep(unsigned int n, int tab1[n], int tab2[n], int tab3[n])
+void przep(unsigned int n, int tab1[], int tab2[], int tab3[])
 {
 int i, maks, min, mid;
 for(i = 0; i < n; i++)
