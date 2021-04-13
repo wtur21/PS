@@ -8,7 +8,7 @@
 
 // Zadanie 3.2.8
 
-// https://github.com/wtur21/PS/blob/main/wt_3_2_8.cpp
+https://github.com/wtur21/PS/blob/main/wt_3_2_8.cpp
 
 //******************************************************************************************************
 
